@@ -1,0 +1,10 @@
+debug/main.o
+debug/mainwindow.o
+debug/videocapturethread.o
+debug/inputfilesprocessdialog.o
+debug/resetmodelprocessdialog.o
+debug/qrc_face_resource.o
+debug/moc_mainwindow.o
+debug/moc_videocapturethread.o
+debug/moc_inputfilesprocessdialog.o
+debug/moc_resetmodelprocessdialog.o

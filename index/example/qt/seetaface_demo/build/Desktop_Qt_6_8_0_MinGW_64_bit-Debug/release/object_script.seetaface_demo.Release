@@ -1,0 +1,10 @@
+release/main.o
+release/mainwindow.o
+release/videocapturethread.o
+release/inputfilesprocessdialog.o
+release/resetmodelprocessdialog.o
+release/qrc_face_resource.o
+release/moc_mainwindow.o
+release/moc_videocapturethread.o
+release/moc_inputfilesprocessdialog.o
+release/moc_resetmodelprocessdialog.o

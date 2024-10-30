@@ -9,7 +9,7 @@
 #define SEETA_LOCK_API __declspec(dllimport)
 #endif
 #else
-#define SEETA_LOCK_API __attribute__ ((visibility("default")))
+#define SEETA_LOCK_API __attribute__((visibility("default")))
 #endif
 
 #define SEETA_LOCK_C_API extern "C" SEETA_LOCK_API
@@ -19,7 +19,7 @@
 extern "C" {
 #endif
 
-//SEETA_LOCK_C_API void SeetaLock_SetServerAddress(const char *ip, int port);
+// SEETA_LOCK_C_API void SeetaLock_SetServerAddress(const char *ip, int port);
 struct SeetaLock_Function;
 SEETA_LOCK_C_API void SeetaLock_call(SeetaLock_Function *function);
 
